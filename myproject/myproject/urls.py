@@ -3,6 +3,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('myapi.urls')),  # Include the URLs of your myapi app
+    path('api/', include('image_processing.urls')),  # Include the URLs of your myapi app
+   
 ]
 
